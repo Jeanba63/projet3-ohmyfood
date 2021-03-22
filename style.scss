@@ -1,7 +1,6 @@
-   @import "./sass/reset";
-   @import "./sass/header";
-   @import "./sass/footer";
-   @import "./sass/index";
-   $greytitle: rgb(234, 234, 234);
-   $greyprimar: rgb(246, 246, 246);
-   $footerbackground: rgb(53, 53, 53);
+       @import "./sass/reset";
+       @import "./sass/header";
+       @import "./sass/footer";
+       @import "./sass/index";
+       @import "./sass/page.scss";
+       @import "./sass/variable.scss";
