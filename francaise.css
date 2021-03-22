@@ -1,0 +1,127 @@
+body {
+  margin: 0%;
+  background-color: #f6f6f6;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header img {
+  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 10px;
+}
+
+header figure {
+  width: 100%;
+  margin: 0%;
+  height: 250px;
+}
+
+header figure img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header figure figcaption {
+  border: 0px solid black;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #f6f6f6;
+  position: relative;
+  top: -60px;
+  height: 70px;
+}
+
+header figure figcaption p {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 32px;
+  padding-left: 20px;
+}
+
+header figure figcaption .far {
+  position: relative;
+  top: -60px;
+  left: 250px;
+}
+
+#entree h2,
+#plats h2,
+#deserts h2 {
+  padding-left: 3px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+#entree figure,
+#plats figure,
+#deserts figure {
+  background-color: white;
+  width: 90%;
+  border: 0px solid white;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 5px;
+  background-color: white;
+}
+
+#entree figure p:first-child,
+#plats figure p:first-child,
+#deserts figure p:first-child {
+  font-weight: 700;
+}
+
+#entree figure p:last-child,
+#plats figure p:last-child,
+#deserts figure p:last-child {
+  position: relative;
+  top: -17px;
+  left: 250px;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding-left: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  padding-top: 5px;
+}
+
+footer ul li:last-child {
+  padding-bottom: 30px;
+}
+
+footer ul .fas {
+  color: white;
+  padding-right: 15px;
+  width: 5px;
+  height: 5px;
+}
+
+footer h4 {
+  font-family: Shrikhand;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=francaise.css.map */

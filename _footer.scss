@@ -1,0 +1,31 @@
+$footerbackground: rgb(53, 53, 53);
+footer {
+    background-color: $footerbackground;
+    color: white;
+    padding-left: 15px;
+    ul {
+        list-style: none;
+        li {
+            padding-top: 5px;
+        }
+        li:last-child {
+            padding-bottom: 30px;
+        }
+        .fas {
+            color: white;
+            padding-right: 15px;
+            width: 5px;
+            height: 5px;
+        }
+        a {
+            color: white;
+            text-decoration: unset;
+        }
+    }
+    h4 {
+        font-family: Shrikhand;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-weight: 400;
+    }
+}

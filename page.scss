@@ -1,0 +1,87 @@
+@import "./footer";
+@import "./variable.scss";
+body {
+    margin: 0%;
+    background-color: #f6f6f6;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    .fas {
+        position: relative;
+        left: 15px;
+    }
+    img {
+        width: 60%;
+        align-self: center;
+        margin-top: 10px;
+    }
+    figure {
+        width: 100%;
+        margin: 0%;
+        height: 250px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+        figcaption {
+            border: 0px solid black;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            background-color: $greyprimar;
+            position: relative;
+            top: -60px;
+            height: 70px;
+            p {
+                font-weight: 700;
+                font-style: italic;
+                font-size: 32px;
+                padding-left: 20px;
+            }
+            .far {
+                position: relative;
+                top: -60px;
+                left: 250px;
+            }
+        }
+    }
+}
+
+#entree,
+#plats,
+#deserts {
+    h2 {
+        padding-left: 3px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    figure {
+        background-color: white;
+        width: 90%;
+        border: 0px solid white;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-left: 5px;
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 5px;
+        background-color: white;
+        p:first-child {
+            font-weight: 700;
+        }
+        p:nth-child(2) {
+            font-size: 14px;
+        }
+        p:last-child {
+            position: relative;
+            top: -20px;
+            left: 250px;
+        }
+    }
+}
+
+button {
+    @include button_style;
+}
